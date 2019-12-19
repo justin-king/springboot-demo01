@@ -1,0 +1,20 @@
+2019-09-23 15:38:41.719  INFO 6164 --- [main] com.xm.demo01.Demo01Application          : Starting Demo01Application on 沐汐 with PID 6164 (D:\MyEclipse2017\ideaWorkSpace\demo01\target\classes started by Administrator in D:\MyEclipse2017\ideaWorkSpace\demo01)
+2019-09-23 15:38:41.721  INFO 6164 --- [main] com.xm.demo01.Demo01Application          : The following profiles are active: dev
+2019-09-23 15:38:42.517  INFO 6164 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d6a3179e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-23 15:38:42.688  INFO 6164 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-09-23 15:38:42.707  INFO 6164 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-09-23 15:38:42.707  INFO 6164 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-09-23 15:38:42.843  INFO 6164 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-09-23 15:38:42.845  INFO 6164 --- [main] o.a.c.c.C.[.[localhost].[/demo01]        : Initializing Spring embedded WebApplicationContext
+2019-09-23 15:38:42.845  INFO 6164 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1094 ms
+2019-09-23 15:38:43.306  INFO 6164 --- [main] com.xm.demo01.config.LogConfig           : ===================BEGIN   LOG===================
+2019-09-23 15:38:43.396  INFO 6164 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-23 15:38:43.436  INFO 6164 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-09-23 15:38:43.591  INFO 6164 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-09-23 15:38:43.649  INFO 6164 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/demo01'
+2019-09-23 15:38:43.651  INFO 6164 --- [main] com.xm.demo01.Demo01Application          : Started Demo01Application in 2.231 seconds (JVM running for 3.175)
+2019-09-23 15:38:44.573  INFO 6164 --- [RMI TCP Connection(2)-10.181.0.251] o.a.c.c.C.[.[localhost].[/demo01]        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-09-23 15:38:44.573  INFO 6164 --- [RMI TCP Connection(2)-10.181.0.251] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-09-23 15:38:44.582  INFO 6164 --- [RMI TCP Connection(2)-10.181.0.251] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2019-09-23 15:38:44.601  INFO 6164 --- [RMI TCP Connection(1)-10.181.0.251] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2019-09-23 15:38:48.989  INFO 6164 --- [http-nio-8080-exec-1] com.xm.demo01.controller.TestController  : 跳转index页面
